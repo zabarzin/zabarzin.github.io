@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+margin: 0;
+padding: 0;
+height: 100%;
+font-family: Helvetica;
+font-size: 8pt;
+color: #444;
+background-color:yellow;
+}
+
+#big_container {
+	width:768px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:light blue;
+}
+
+#main_container{
+	width:768px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:20px;
+	margin-bottom:20px;
+	font-size:small;
+}
+
+title{
+	display:none;
+}
+
+
+#header{
+	padding-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	width:768px;
+	height:156px;
+	float:left;
+	background-color:white;
+}
+
+#logo{
+	width: 74.88 px;
+	height:105.12 px;
+	display: block;
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+#menu {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	height:156px;
+	padding-left:680px;
+	background-color:orange;
+}
+
+#menu ul{
+	float:left;
+	position:absolute;
+	margin-right:35px;
+	font-size:small;
+	letter-spacing:2px;
+	background-color:green;
+}
+
+.entry {
+	position: relative;
+	float:left;
+	margin:1px;
+	height:225.5px;
+	background-color:orange;
+}
+
+figure{
+	display:block;
+	width:181.667px;
+	height:226.333px;
+	margin:0px;
+	padding:9px;
+	text-align:left;
+}
+
+fig img {
+	width:181.667px;
+	height:225.5px;
+	border:1px;
+}
+
+#pinkbox{
+position: absolute;
+height: 225.5 px;
+width: 181.667px;
+top: 50px;
+}
+
+#pinkbox2{
+position: absolute;
+height: 225.5 px;
+width: 181.667px;
+top: 50px;
+}
+
+#pinkbox3{
+position: absolute;
+height: 225.5 px;
+width: 181.667px;
+top: 50px;
+}
+
+#footer{
+	width:596px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
