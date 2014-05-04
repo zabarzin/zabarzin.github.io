@@ -89,27 +89,35 @@ table {
 
 #header {
 	position:relative;
-	background-color:#eee;
+	background-color:white;
 	height:135px;
 }
 
 #content-wrapper {
+	padding-top:80px;
+	width:960px;
 	margin:2% 0;
 }
 
 .entry {
-	width:230px;
+	background-color:blue;
+	width:205px;
 	float:left;
-	margin:5px;
-	height:313px;
+	margin:17.515px;
+	height:260px;
 }
+
 
 .image-container{
 	display:block;
 	float:left;
-	width:202px;
-	height:252.723 px;
-	border:1px;
+	width:294px;
+	height:256.723px;
+}
+
+.image-container img{
+	width:205px;
+	height:252.723px;
 }
 
 .clearfix:after {
@@ -118,3 +126,30 @@ table {
 	clear:both;
 }
 
+#content-wrapper-2 {
+	padding-top:80px;
+	width:960px;
+	margin:2% 0;
+}
+
+.entry-2{
+	background-color:green;
+	width:675px;
+	float:left;
+	margin:18px;
+	height:260px;
+}
+
+.entry-3{
+	background-color:green;
+	width:205px;
+	float:left;
+	margin:17.515px;
+	height:260px;
+}
+
+article{
+	float:left;
+	background-color:blue;
+	padding-left:20px;
+}
