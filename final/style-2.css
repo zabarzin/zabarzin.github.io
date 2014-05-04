@@ -54,6 +54,16 @@ table {
 	margin:0 auto;
 }
 
+.clearfix{
+	width:600px;
+}
+
+.clearfix ul li{
+	background-color:purple;
+	padding-left:500px;
+
+}
+
 #logo{
 	position:absolute;
 	bottom:1%;
@@ -75,7 +85,7 @@ table {
 	float:left;
 	padding:5px;
 	font-family:helvetica;
-	padding-left:48px;
+	padding-left:90px;
 	padding-right:0px;
 	
 }
