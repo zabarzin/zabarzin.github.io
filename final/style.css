@@ -100,17 +100,18 @@ table {
 }
 
 #content-wrapper {
-	padding-top:100px;
+	padding-top:80px;
 	width:960px;
 	margin:2% 0;
 }
 
 .entry {
-	background-color:blue;
+	background-color:white;
 	width:205px;
 	float:left;
 	margin:17.515px;
 	height:260px;
+	padding-bottom:22px;
 }
 
 .description{
@@ -119,10 +120,10 @@ table {
 }
 
 .description p{
-	color:#545354;
+	color:#939597;
 	text-align:center;
-	font-family:garamond;
-	font-size:medium;
+	font-family:Helvetica;
+	font-size:x-small;
 }
 
 .image-container{
@@ -130,11 +131,13 @@ table {
 	float:left;
 	width:294px;
 	height:256.723px;
+	padding-bottom:10px;
 }
 
 .image-container img{
 	width:205px;
 	height:252.723px;
+	
 	
 }
 
